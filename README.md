@@ -1,7 +1,7 @@
 # AdvantaProject
 
 <p align="center">
-  <img src="photos/index.png" alt="Main Page" width="550">
+  <img src="photos/index.PNG" alt="Main Page" width="550">
 </p>
 
 ## Description
@@ -21,7 +21,7 @@ The Job Description Project is a web application designed to increase your chanc
 ## Screenshots
 
 <p align="center">
-  <img src="photos/linkedin.png" alt="LinkedIn Integration" width="550">
+  <img src="photos/linkedin.PNG" alt="LinkedIn Integration" width="550">
 </p>
 
 *LinkedIn Integration: Users can connect their LinkedIn profile to enhance project recommendations.*
@@ -31,7 +31,7 @@ The Job Description Project is a web application designed to increase your chanc
 
 
 <p align="center">
-  <img src="photos/result.png" alt="Result Table" width="550">
+  <img src="photos/result.PNG" alt="Result Table" width="550">
 </p>
 *Result Table: A table displaying a list of recommended projects based on the job description.*
 <br>
