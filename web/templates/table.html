@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+{% block title %}Proposed projects{% endblock %}
+{% block content %}
+  <div class="container2">
+    <h2>Uploaded Text:</h2>
+    <div class="uploaded-text">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Language</th>
+                    <th>Utility</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for project in text['projects'] %}
+                <tr>
+                    <td>{{ project['name'] }}</td>
+                    <td>{{ project['description'] }}</td>
+                    <td>{{ project['language'] }}</td>
+                    <td>{{ project['utility'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+  </div>
+{% endblock %}

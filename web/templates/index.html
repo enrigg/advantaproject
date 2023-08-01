@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+  <div class="container">
+    <br>
+    <h1>Enter the LinkedIn Job Offer Description</h1>
+    <form id="jobOfferForm" action="/project_table" method="POST">
+        <label for="jobOfferText">Job Offer Text:</label>
+        <input type="text" id="jobOfferText" name="jobOfferText" style="height : 100px;">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    
+  </div>
+</body>
+{% endblock %}
